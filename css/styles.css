@@ -57,6 +57,7 @@ footer {
 .nav-brand {
     font-weight: 700;
     font-size: 18px;
+    margin-bottom: 5px;
 }
 
 .profile-container {
@@ -131,5 +132,31 @@ footer {
 @media(min-width: 768px) {
     html {
         font-size: 24px;
+    }
+
+    .portfolio-item {
+        width: 280px;
+    }
+
+    .nav-container {
+        display: flex;
+    }
+
+    .nav-main {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .nav-main a {
+        margin-bottom: 0px;
+    }
+
+    .nav-brand {
+        margin-bottom: 0px;
+        font-size: 30px;
+    }
+
+    .menu-items li {
+        font-size: 18px;
     }
 }
